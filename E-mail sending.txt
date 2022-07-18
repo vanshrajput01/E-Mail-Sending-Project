@@ -1,0 +1,5 @@
+import smtplib
+s = smtplib.SMTP_SSL('smtp.gmail.com')
+s.login('pytemp21@gmail.com','xyqjmqogmrdcyblf')
+s.sendmail('pytemp21gmail.com','codeplusstudio@gmail.com','HELLO PYTHON!!')
+s.quit()
